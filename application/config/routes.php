@@ -54,6 +54,7 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 $route['login'] = 'LoginController';
+$route['auth/login'] = 'LoginController/login';
 $route['logout'] = 'LoginController/logout';
 
 $route['dashboard'] = 'admin/DashboardController';
@@ -64,11 +65,17 @@ $route['data-set/sample'] = 'admin/DataSetController/download_sample';
 
 $route['probabilitas'] = 'admin/ProbabilitasController';
 $route['perhitungan'] = 'admin/PerhitunganController';
-$route['perhitungan/predict_by_date'] = 'admin/PerhitunganController/predict_by_date';
+$route['perhitungan/prediksi'] = 'admin/PerhitunganController/prediksi';
+$route['perhitungan/predict_by_date'] = 'admin/PerhitunganController/predict_by_date_new';
 
 $route['prediksi-minat'] = 'admin/PrediksiMinatController';
+$route['prediksi-minat/act-result'] = 'admin/PrediksiMinatController/predict_interest';
+$route['klasifikasi'] = 'admin/KlasifikasiController';
+$route['klasifikasi/filter'] = 'admin/KlasifikasiController/filter_by_date_ajax';
+$route['klasifikasi/export_to_excel'] = 'admin/KlasifikasiController/export_to_excel';
 
 $route['riwayat-hasil'] = 'admin/HasilController';
 $route['pengguna'] = 'admin/PenggunaController';
+$route['profil'] = 'admin/ProfilController';
 
 // $route['data-set'] = 'admin/DataSetController';
