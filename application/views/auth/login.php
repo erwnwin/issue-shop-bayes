@@ -118,7 +118,7 @@
 <script src="<?= base_url() ?>public/assets/plugins/sweetalert2/sweetalert2.min.js"></script>
 <!-- Toastr -->
 <script src="<?= base_url() ?>public/assets/plugins/toastr/toastr.min.js"></script>
-<script src="<?= base_url() ?>public/css/login.js"></script>
+<!-- <script src="<?= base_url() ?>public/css/login.js"></script> -->
 <script src="<?= base_url() ?>public/assets/js/login.js"></script>
 
 </html>
